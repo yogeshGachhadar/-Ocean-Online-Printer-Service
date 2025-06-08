@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bree Serif', serif;
+  scroll-behavior: smooth;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  top: 0px;
+  justify-content: space-around; 
+  background: none;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  transition: all 0.3s;
+  padding-bottom: 15px;
+}
+
+.logo{
+   margin: auto;
+   float: left;
+   padding-right: 750px;
+  
+    
+}
+
+#navbar img{
+  height: 100px;
+  margin: -10px;          
+  border-radius:40px; 
+   float: left; 
+}
+
+#navbar ul{
+  display: flex;
+  padding-right: 60px;
+  /*font-family: 'Baloo Bhai', cursive;*/
+
+  
+}
+#navbar ::before{
+  content: "";
+ /* background-color: black;*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 128%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+
+}
+#navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+  position: relative;
+  
+ 
+}
+#navbar ul li a{
+  color: black;
+  display: block;
+  padding: 3px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color: white;
+  background-color: black;
+  scale: 110%;
+}
+.lr{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  margin-right: 25px;
+
+}
+.text {
+  height: 305px;
+  position: relative;
+  text-align: center;
+}
+
+.text h1{
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+ /* padding-bottom: 230px;*/ 
+}
+.text p{
+  text-align: center;
+  font-size: 1.5em;
+  width: 750px;
+}
+div.text {
+  background: linear-gradient(to right, rgb(226, 224, 218),rgb(168, 166, 165) );
+}
+.about img{
+  height:490px;
+}
+.p h1{
+  padding-left: 60px;
+}
+.can{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 25px;
+
+}
+.we{
+  height: 115px;
+}
+.we h1{
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+ /* padding-bottom: 230px;*/ 
+}
+.popup{
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s ;
+}
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+.popup h2{
+  font-size: 38px;
+  font-style: 500;
+  margin: 30px 0 10px;
+}
+

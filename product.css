@@ -1,0 +1,305 @@
+*{
+  scroll-behavior: smooth;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Bree Serif', serif;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  top: 0px;
+  justify-content: space-around; 
+  background: none;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  transition: all 0.3s;
+ padding-bottom: 15px;
+}
+
+.logo{
+   margin: auto;
+   float: left;
+   padding-right: 750px;
+  
+    
+}
+
+#nav img{
+  height: 100px;
+  margin: -10px;          
+  border-radius:40px; 
+   float: left; 
+}
+#nav ::before{
+  content: "";
+ background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 128%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  
+
+}
+#nav ul{
+  display: flex;
+  padding-right: 60px;
+}
+#nav ul li{
+  list-style: none;
+  font-size: 1.3rem;
+  position: relative;
+  
+ 
+}
+#nav ul li a{
+  color: black;
+  display: flex;
+  padding: 3px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#nav ul li a:hover{
+  color: rgb(248, 243, 243);
+  background-color: black;
+  scale: 110%;
+}
+.print {
+  height: 110px;
+  position: relative;
+  text-align: center;
+}
+
+.print h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+ /* padding-bottom: 230px;*/ 
+}
+div.print {
+  background: linear-gradient(to right, rgb(255,249,222),rgb(168, 166, 165) );
+}
+.back img{
+  height: 485px;
+}
+/*.back img{
+ height: 500px;
+ width: 1534px;
+}*/
+.cat{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1px;
+  margin-right: 250px;
+
+}
+.cat h1{
+  text-align: center;
+  padding-left: 250px;
+  position: relative;
+  top: 26px 
+
+}
+.printer .Size img{
+  width: 300px;
+  height: 330px;
+  position: absolute;
+  transition: 0.2s;
+  top: 0;    
+  background: white;
+  
+}
+.printer .Size img:hover{
+  width: 280px;
+  height: 330px;
+  position: absolute;
+  top: 10px;
+  border-radius: 20px;
+}
+
+.printer .Size{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 530px;
+  background-color: rgb(223, 223, 236);
+  position: relative;
+  transition: 0.4s;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: 1px solid #dedece;
+ 
+}
+.printer .Size:hover{
+  box-shadow:  0 5px 15px rgba(178, 14, 14, 0.4) ;
+  border-radius: 15px;
+  
+  
+}
+
+.printer{
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Name h2{
+  position: absolute;
+  bottom: 135px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.price{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 63px;
+  text-align: center;
+
+}
+
+
+.Name p{
+  text-transform: uppercase;
+  font-weight: 50;
+
+}
+.per{
+  text-decoration: line-through;
+}
+
+.Size .order{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 13px;
+
+}
+
+.Buy{
+  transition: 0.1s;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: cursive;
+  padding: 5px;
+}
+.Buy:hover{
+  background: black;
+  scale: 110%;
+  color: white;
+}
+.Size .order button{
+  border-radius: 20px;
+  cursor: pointer;
+}
+#star{
+  position: absolute;
+  left: 38px;
+  bottom: 48px;
+}
+
+.checked{
+  color: rgb(141, 58, 13);
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-star:before {
+  content: "";
+}
+
+
+.ha {
+  height: 230px;
+  position: relative;
+  text-align: center;
+}
+
+div.ha {
+  background: linear-gradient(to right, rgb(255,249,222),rgb(168, 166, 165) );
+}
+
+/*footer {
+  background-color: rgb(31 41 55);
+  color: black;
+  font-size: 16px;
+  font-family: sans-serif;
+}*/
+footer {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.foot {
+  padding: 1em 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr;
+  align-items: center;
+
+}
+
+.new {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: auto;
+
+}
+.new.old{
+ display: flex;
+ position: relative;
+right: 130px;
+}
+.terms{
+  
+  position: relative;
+  right: 50px;
+}
+.privacy{
+  position: relative;
+  right: 10px;
+}
+
+h3 {
+  width: 170px;
+  text-align: left;
+  color:black;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.social {
+  display: flex;
+  position: relative;
+  right: 150px;
+  justify-content: center;
+  font-size: 2rem;
+  flex-direction: row;
+  cursor: pointer;
+}
+.social i {
+  color: black;
+  margin: 10px;
+
+}
+
+.social i:hover {
+  color: orange;
+}
+
+

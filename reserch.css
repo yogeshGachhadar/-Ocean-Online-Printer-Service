@@ -1,0 +1,98 @@
+.research{
+
+  background: linear-gradient(to right, rgb(226, 224, 218),rgb(168, 166, 165) );
+}
+.como {
+  width: 100%;
+   height: 400px;
+   padding: 50px;
+   align-items: center;
+   display: flex;
+   position: relative;
+   border-radius: 20px;
+ }
+ .como img{
+
+   width: 570px;
+   border-radius: 20px;
+   position: relative;
+   left: 860px;
+ }
+ .como p{
+     position: relative;
+     margin-left: 15px;
+     font-size: large;
+    right: 600px; 
+ 
+ }
+ footer {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.foot {
+  padding: 1em 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr;
+  align-items: center;
+
+}
+
+.new {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: auto;
+
+}
+.new.old{
+ display: flex;
+ position: relative;
+right: 130px;
+}
+.terms{
+  
+  position: relative;
+  right: 50px;
+}
+.privacy{
+  position: relative;
+  right: 10px;
+}
+
+h3 {
+  width: 170px;
+  text-align: left;
+  color:black;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.social {
+  display: flex;
+  position: relative;
+  right: 110px;
+  justify-content: center;
+  font-size: 2rem;
+  flex-direction: row;
+  cursor: pointer;
+}
+.social i {
+  color: black;
+  margin: 10px;
+
+}
+
+.social i:hover {
+  color: orange;
+}
+.ha {
+  height: 230px;
+  position: relative;
+  text-align: center;
+}
+
+div.ha {
+  background: linear-gradient(to right, rgb(255,249,222),rgb(168, 166, 165) );
+}

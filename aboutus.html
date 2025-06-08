@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="about.css">
+  <style>
+   /* internal css */
+.Our{
+    background-color: rgba(235, 235, 240, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 570px;
+    width: 340px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.479);
+    position: relative;
+
+}
+.photo img{
+    width:230px;
+    height: 230px;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.3s;
+    top: 50px;
+    
+    
+}
+.photo img:hover{
+    width: 250px;
+    height: 250px;
+  
+}
+.para{
+    width: 100%;
+    position: absolute;
+    top: 318px;
+    text-align: center;
+}
+.para h6{
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+  margin-left: 26px;
+  position: relative;
+  top: 20px;
+}
+
+.Arow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-size: 1em;
+    position: relative;
+    top: 50px;
+}
+button:hover{
+    scale: 110%;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px black;
+}
+button.btn{
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-size: 1em;
+    position: relative;
+    top: 0px;
+}
+button.btn:hover{
+    scale: 110%;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px black;
+}
+
+    .feedback-container {
+      top: 40px;
+      position: relative;
+      max-width: 380px;
+      margin: 12px 50px;
+      padding: 20px;
+      background-color: #4e4848;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .feedback-container h2 {
+      text-align: center;
+      color: #ffffff;
+      filter: drop-shadow( 0 0 3px #3b3b3b);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #ffffff;
+      filter: drop-shadow( 0 0 3px #3b3b3b);
+    }
+   
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    footer {
+      position: relative;
+      padding-right: 700px;
+      color: white;
+      background: linear-gradient(rgb(110, 100, 82), white) ;
+      margin-top: 50px;
+      height: 600px;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+
+   
+  </style>
+</head>
+<body>
+  <nav id="navbar"> 
+    <div class="logo">
+      <img  src="images/logo1.png" alt="">
+      
+    </div>
+   
+    <ul>
+      <li class="item"><a href="website.html">Home</a></li>
+      <li class="item"><a href="product.html">Product</a></li>
+      <li class="item"><a href="blog.html">Blog</a></li>
+      <li class="item"><a href="research.html">Research</a></li>
+      <li class="items"><a href="aboutus.html">About Us</a></li>
+    </ul>
+  
+  </nav>
+  <div class="about">
+     <img src="images/aboutus.jpg" alt="">
+     <div class="p">
+      <h1>WE PROVIDE THE BEST <br> PRINTER OVER THE WORLD.</h1>
+    </div>
+  </div>
+   
+      <div class="text" style="  border-top: 2px solid rgb(96, 96, 93);
+      border-bottom: 2px solid rgb(95, 91, 91); margin-top: 20px; border-left:2px solid rgb(103, 100, 100) ; border-right:2px solid rgb(91, 89, 89) ;"> <!--inline css-->
+        <div class="lr">
+          <h1>ABOUT US!</h1>
+          <p>At Ocean Printer, we pride ourselves on being a dynamic and innovative force in this online service. Established in jan-01-2024, our journey has been marked by a steadfast commitment to excellence and a passion for delivering unparalleled solutions to our valued clients. With a team of dedicated professionals who bring a diverse range of expertise, we have consistently pushed the boundaries of what is possible in our commpany. Our mission is to provide the printer all over the world, and we achieve this by with our dedication on it. 
+          </p>
+        </div>
+        <div class="can" style="  border-top: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255); border-left:2px solid rgb(255, 255, 255) ; border-right:2px solid rgb(255, 255, 255) ; margin-top: 90px;"> <!--inline css-->
+          <div class="we">
+            <h1>OUR TEAM</h1>
+          </div>  
+        </div>
+        <div class="Arow">
+          <div class="Our">
+              <div class="photo">
+                  <img src="images/karuna.jpg" alt="">
+              </div>
+              <div class="para">
+                  <h3 style="color: blue;">Karuna Giri</h3>
+                  <h4 style="color:brown;font-size: 1rem;">Maketing Strategy</h4>
+                  <h6> <strong> Iam Karuna Giri.The designer of about us page in the website.</strong></h6>
+                  <button onclick="location.href = 'karuna.html'">My Portfolio</button>
+              </div>    
+          </div>
+          <div class="Our">
+            <div class="photo">
+                <img src="images/la.jpg" alt="">
+            </div>
+            <div class="para">
+                <h3 style="color: blue;">Tumyahang Lawati</h3>
+                <h4 style="color:brown;font-size: 1rem;">Web Designer</h4>
+                <h6> <strong> Iam Tumyahang Lawati.The designer of home & product page in  the web site.</strong></h6>
+                <button onclick="location.href = 'lawati.html'">My Portfolio</button>
+            </div>    
+        </div>
+        <div class="Our">
+          <div class="photo">
+              <img src="images/grand dad.jpg" alt="">
+          </div>
+          <div class="para">
+              <h3 style="color: blue;">Yogesh Gachchhadar </h3>
+              <h4 style="color:brown;font-size: 1rem;">CEO</h4>
+              <h6> <strong> Iam Yogesh Gachchhadar.The designer of research page in the website.</strong></h6>
+              <button onclick="location.href = 'yogesh.html'">My Portfolio</button>
+          </div>    
+      </div>
+      <div class="Our">
+        <div class="photo">
+            <img src="images/rupace.jpg" alt="">
+        </div>
+        <div class="para">
+            <h3 style="color: blue;">Rupesh Dahal </h3>
+            <h4 style="color:brown;font-size: 1rem;">Finance And Operation</h4>
+            <h6> <strong> Iam Rupesh Dahal.The designer of blog page in the website.</strong></h6>
+            <button onclick="location.href = 'rupace.html'">My Portfolio</button>
+        </div>    
+    </div>
+
+  </div>
+<footer>
+  <div class="feedback-container">
+    <h2>Feedback</h2>
+    <form action="" onsubmit="form()">
+      <label for="name">Name:  </label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="contact">Contact no: </label>
+      <input type="contact" id="contact" name="contact" required>
+   
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+   
+      <button class="btn">Submit Feedback</button>
+     
+    </form>
+  </div>
+</footer>
+<div class="pa" style="display: flex; margin-left: 600px; position: relative; bottom: 500px;">
+   <p>We offer a comprehensive range of printers designed to meet the diverse needs of our customers. Our printers boast cutting-edge technology, ensuring high-quality prints with precision and efficiency. Whether you require a compact and user-friendly model for home use or a robust and feature-rich printer for business applications, our selection caters to various preferences. With user-friendly interfaces and seamless connectivity options, our printers are designed to enhance productivity and convenience. Our commitment to innovation is reflected in advanced features such as wireless printing, mobile compatibility, and eco-friendly options, providing customers with a versatile and sustainable printing solution. Additionally, our dedicated customer support team is readily available to assist with any queries or technical issues, ensuring a seamless and satisfying experience for our valued customers.
+   </p>
+</div>
+<script>
+  /* java Script  to make form */
+  function form() {
+      var name = document.getElementById("name");
+      var email = document.getElementById("email");
+
+      if (name.value == "" || email.value == "") {
+        alert("please fill the form");
+      }
+      else {
+        alert("Thank you for you feedback.");
+      }
+    }
+  
+  
+</script>
+</body>
+</html>

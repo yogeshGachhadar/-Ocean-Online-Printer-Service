@@ -1,0 +1,112 @@
+/* external css  of blog page*/
+.intro{
+  background-color: wheat;
+  width: 98%;
+  max-height: 30%; 
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.tech{
+  width: 450px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.introduction{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+.desc{
+  display: block;
+  max-width: 65%;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.desc h3{
+  text-align: center;
+  text-decoration: underline;
+}
+.topics{
+  display: flex;
+  width: 100%;
+  max-height: 800px;
+  justify-content: space-around;
+  margin: 10px;
+}
+.image img{
+  width: 450px;
+  border-radius: 20px;
+}
+.positive, .negative, .helped{
+  background-color: wheat;
+  width: 30%;
+  max-height: 500px;
+  overflow: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+/* CSS to hide scrollbar */
+.positive::-webkit-scrollbar{
+  display: none;
+}
+.negative::-webkit-scrollbar{
+  display: none;
+}
+.helped::-webkit-scrollbar{
+  display: none;
+}
+.desc-2{
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.desc-2 h3{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.conclusion{
+  background-color: wheat;
+  width: 97%;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conclusion h3{
+  text-align: center;
+  text-decoration: underline;
+}
+.foot{
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, rgb(255,249,222),rgb(168, 166, 165) );
+}
+
+.social, .new, .visit, .terms, .privacy {
+  width: 240px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.social h3, .new h3, .visit h3, .terms h3, .privacy h3 {
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social i {
+  color: black;
+  margin: 9px;
+  font-size: 40px;
+
+}
+
+.social i:hover {
+  color: orange;
+}
